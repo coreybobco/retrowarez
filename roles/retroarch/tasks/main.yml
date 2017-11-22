@@ -1,0 +1,18 @@
+---
+- apt_key:
+    url: http://oph.mdrjr.net/meveric/meveric.asc
+  become: true
+- apt:
+    update_cache: yes
+    name: "{{ item }}"
+  with_items:
+    - git
+  become: true
+# - git:
+#     repo: https://github.com/RetroPie/RetroPie-Setup.git
+#     depth: 1
+#     dest: ~/RetroPie-Setup/
+# - shell: ./retropie_setup.sh >> output.txt
+#   args:
+#     chdir: /home/{{ username }}/RetroPie-Setup/
+#   become: true

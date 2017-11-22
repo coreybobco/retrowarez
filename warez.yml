@@ -1,0 +1,4 @@
+---
+- hosts: emubox
+  roles:
+    - retroarch

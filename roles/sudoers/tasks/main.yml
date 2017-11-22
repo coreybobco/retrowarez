@@ -1,0 +1,6 @@
+---
+- template:
+    src: sudoers-policy.j2
+    dest: /etc/sudoers.d/custom-policy
+    owner: root
+    mode: 0664

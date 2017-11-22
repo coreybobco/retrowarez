@@ -1,0 +1,4 @@
+---
+- hosts: setup
+  roles:
+    - sudoers
