@@ -1,6 +1,0 @@
-all:
-  hosts:
-    emubox:
-      ansible_host: 192.168.1.202
-      ansible_user: alucard
-      ansible_ssh_pass: retrowarez

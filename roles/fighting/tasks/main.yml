@@ -1,0 +1,8 @@
+- name: Copy Dreamcast roms
+  copy:
+    src: "/media/corey/4649765178C51A81/Retrowarez/Fighting/"
+    dest: "/media/corey/SHARE/roms"
+    mode: 0777
+    force: no
+    directory_mode: yes
+  become: yes

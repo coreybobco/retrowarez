@@ -1,4 +1,9 @@
 ---
-- hosts: setup
+- hosts: localhost
   roles:
-    - sudoers
+    - bios
+    # - base
+    # - favorites
+    - fighting
+    # - platformers
+    # - rpg
