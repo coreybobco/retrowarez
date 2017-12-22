@@ -1,0 +1,9 @@
+- name: Copy 'basic pack' of roms (SNES, NES, Genesis, etc)
+  copy:
+    src: "/media/corey/4649765178C51A81/Retrowarez/Basic/"
+    dest: "/media/corey/SHARE/roms"
+    owner: root
+    mode: 0777
+    force: no
+    directory_mode: yes
+  become: true

@@ -1,8 +1,9 @@
-- name: Copy Dreamcast roms
+- name: Copy fighting game roms
   copy:
     src: "/media/corey/4649765178C51A81/Retrowarez/Fighting/"
     dest: "/media/corey/SHARE/roms"
     mode: 0777
+    owner: root
     force: no
     directory_mode: yes
-  become: yes
+  become: true

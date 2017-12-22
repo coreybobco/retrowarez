@@ -1,4 +1,4 @@
-- name: Copy platformer roms
+- name: Copy sidescroller roms
   copy:
     src: "/media/corey/4649765178C51A81/Retrowarez/Sidescrollers/"
     dest: "/media/corey/SHARE/roms"

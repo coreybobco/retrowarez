@@ -3,7 +3,7 @@
     src: "{{ item }}"
     dest: "/media/corey/SHARE/bios/"
     mode: 0777
+    owner: corey
     force: no
   with_fileglob:
     - "/media/corey/4649765178C51A81/Retrowarez/Bios/Bios/*"
-  become: yes

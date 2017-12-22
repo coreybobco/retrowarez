@@ -2,8 +2,10 @@
 - hosts: localhost
   roles:
     - bios
-    # - base
-    # - favorites
+    - basic
+    - favorites
     - fighting
-    # - platformers
-    # - rpg
+    - platformers
+    - rpg
+    - sidescrollers
+    - fix_permissions

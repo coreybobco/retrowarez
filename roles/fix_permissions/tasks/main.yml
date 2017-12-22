@@ -1,0 +1,6 @@
+- name: Fix permissions for roms directory
+  file:
+    path: "/media/corey/SHARE/roms"
+    mode: 0777
+    recurse: yes
+  become: true
